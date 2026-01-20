@@ -7,7 +7,7 @@ terraform {
     key            = "spacelift-testing-existing-res/testing-terraform-spacelift-testing.tfstate"
     region         = "us-east-1"
     # role_arn       = "arn:aws:iam::459772859073:role/test-platform-state-role"
-    profile        = "test-platform-JuniorCPE"
+    # profile        = "test-platform-JuniorCPE"
   }
 
   required_providers {
@@ -24,5 +24,5 @@ terraform {
 
 provider "aws" {
   region  = "us-east-1"
-  profile = "test-platform-JuniorCPE"
+  # profile = "test-platform-JuniorCPE"
 }
